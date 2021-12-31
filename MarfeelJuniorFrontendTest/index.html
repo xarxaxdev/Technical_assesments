@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Hello!</title>
+    <script src="main.js"></script>
+</head>
+<body>
+  <div class="searchdiv" id="main" >
+    <div class="query">
+      <input type="text" id="search" placeholder= "Search username..." class= "button">
+      <input type="button" id="searchbutton" value= "Search"
+      class="button" onclick="search()">
+    </div>
+    <div class="inv-container" id="successresult">
+      <div id="description">
+        <img id="profilepic" src="images/default.png" alt="profilepic" class="profilepic">
+        <div id="text_description">
+          <p id="username">@username</p>
+          <p id="fullname">Full name</p>
+          <p id="bio">this is the bio..</p>
+        </div>
+      </div>
+      <div id="titlerepos"><p>Repositories</p></div>
+      <div id="listrepos"><ul id="list"></ul></div>
+    </div>
+    <div class="inv-container" id="nosuccessresult">
+      <p id="nosuccesstext">Does not exist</p>
+    </div>
+  </div>
+</body>
+</html>
