@@ -1,0 +1,15 @@
+{
+	"VOUCHER":{
+		"Name":"NoviCap Voucher",
+		"Price":5.0
+	},
+	"TSHIRT":{
+		"Name":"NoviCap T-Shirt",
+		"Price":20.0
+	},
+	"MUG":{
+		"Name":"NoviCap Coffee Mug",
+		"Price":7.5
+	}
+
+}
